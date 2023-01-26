@@ -1,0 +1,36 @@
+[23:59:11 INFO]: SpotlessParty[/123.246.111.105:12399] logged in with entity id 106,794 at (1,101.957, 63, -948.311)
+[23:59:23 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[23:59:23 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[23:59:23 ERROR]: ------------------------------
+[23:59:23 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[23:59:23 ERROR]: ------------------------------
+[23:59:23 ERROR]: Current Thread:Server thread
+[23:59:23 ERROR]:       PID: 30 | Suspended:false | Native:false | State:RUNNABLE
+[23:59:23 ERROR]:       Stack:
+[23:59:23 ERROR]:               net.minecraft.world.biome.provider.EndBiomeProvider.func_235317_a_(EndBiomeProvider.java:91)
+[23:59:23 ERROR]:               net.minecraft.world.biome.provider.EndBiomeProvider.func_225526_b_(EndBiomeProvider.java:66)
+[23:59:23 ERROR]:               net.minecraft.world.biome.BiomeContainer.<init>(BiomeContainer.java:82)
+[23:59:23 ERROR]:               net.minecraft.world.chunk.storage.ChunkSerializer.func_222656_a(ChunkSerializer.java:68)
+[23:59:23 ERROR]:               net.minecraft.world.server.ChunkManager.func_223170_j(ChunkManager.java:507)
+[23:59:23 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$7244/0x0000000801f8e498.get(Unknown Source)
+[23:59:23 ERROR]:               java.base@17.0.5/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[23:59:23 ERROR]:               net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[23:59:23 ERROR]:               net.minecraft.world.server.ServerChunkProvider$ChunkExecutor.func_213166_h(ServerChunkProvider.java:592)
+[23:59:23 ERROR]:               net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[23:59:23 ERROR]:               net.minecraft.world.server.ServerChunkProvider$ChunkExecutor.func_213168_p(ServerChunkProvider.java:600)
+[23:59:23 ERROR]:               net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[23:59:23 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_212849_a_(ServerChunkProvider.java:158)
+[23:59:23 ERROR]:               net.minecraft.world.World.func_217353_a(World.java:263)
+[23:59:23 ERROR]:               net.minecraft.world.end.DragonFightManager.func_222670_k(DragonFightManager.java:303)
+[23:59:23 ERROR]:               net.minecraft.world.end.DragonFightManager.func_186105_b(DragonFightManager.java:147)
+[23:59:23 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:524)
+[23:59:23 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[23:59:23 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[23:59:23 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[23:59:23 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[23:59:23 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[23:59:23 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6253/0x0000000801a3a9e0.run(Unknown Source)
+[23:59:23 ERROR]:               java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+[23:59:23 ERROR]: ------------------------------
+[23:59:23 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[23:59:23 ERROR]: ------------------------------
