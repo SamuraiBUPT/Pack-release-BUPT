@@ -66,3 +66,6 @@ EssentialsX
 Luckperms
 
 EClean
+
+# Others
+Any issue welcome!
