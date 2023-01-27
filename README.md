@@ -20,8 +20,12 @@ You can find the release version beside =>
 
 ### [简单存储](https://www.mcmod.cn/class/1714.html) 1.16.5
 
+### -[Cyclops](https://www.mcmod.cn/class/810.html) 前置
+
+### -[巨型箱子](https://www.mcmod.cn/class/957.html) 补充
+
 ## Dig
-### [连锁采集](https://www.mcmod.cn/class/5616.html) 1.16.5
+### [连锁采集](https://www.mcmod.cn/class/5616.html) 1.16.5 
 
 ### [魔种之咏](https://www.mcmod.cn/class/1006.html) 1.16.5 
 
@@ -52,6 +56,18 @@ You can find the release version beside =>
 
 ## Main
 ### [Colony殖民地](https://www.mcmod.cn/class/682.html) 1.16.5
+
+### -[建筑手杖](https://www.mcmod.cn/class/3545.html)
+
+### -[古怪装置](https://www.mcmod.cn/class/1996.html)
+
+### -[Kotlin for forge](https://www.mcmod.cn/class/2126.html) 一键整理Next的前置
+
+### -[libipn](https://www.mcmod.cn/class/4104.html) 一键整理Next的前置 Client Only
+
+### -[一键整理Next](https://www.mcmod.cn/class/4104.html) 补充 Client Only
+
+### -[Craft Tweaks](https://www.mcmod.cn/class/1501.html) 补充
 
 ### [结构化]() 1.16.5 前置mod
 
