@@ -46,6 +46,8 @@ You can find the release version beside =>
 
 ### [Rubidium:Dynamiclight](https://www.mcmod.cn/class/5608.html) 1.16.5 CLIENT
 
+### -[输入法修复](https://www.mcmod.cn/class/3358.html) 新添
+
 ## Map（Client Only）
 ### [Xaero](https://www.mcmod.cn/class/1483.html) 1.16.5 CLIENT
 
