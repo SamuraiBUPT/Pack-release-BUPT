@@ -5,7 +5,7 @@
 
 第一版部分mod没有汉化，对于游玩体验影响非常大，第二版保证全部mod拥有汉化。第一版中有些mod非常蹩脚，体验不佳，第二版装上正宗的mod，丰富游戏体验。
 
-**主题**：待定
+**主题**：自然
 
 **Server Core**：Fabric
 
@@ -21,7 +21,7 @@
 ## Server Optimization
 [磷Phopher](https://www.mcmod.cn/class/1766.html)：服务端优化：光照与世界生成
 
-[氪Krypton](https://www.mcmod.cn/class/3399.html)网络堆栈优化
+[氪Krypton](https://www.mcmod.cn/class/3399.html)：网络堆栈优化
 
 [Smooth Boot](https://www.mcmod.cn/class/3422.html)：平滑启动
 
@@ -44,7 +44,7 @@
 
 [钠·扩展Sodium Extra](https://www.mcmod.cn/class/3701.html)：作为钠的补充，完善了部分钠的不足，可以带来更好的视觉体验。
 
-[锂](https://www.mcmod.cn/class/2292.html)：优化生物系统、红石、爆炸等内容
+[锂](https://www.mcmod.cn/class/2292.html)：优化生物系统、红石、爆炸等内容 （客户端/服务端二选一安装）
 
 [Exordium](https://www.mcmod.cn/class/7540.html)：改变渲染的硬件分配方式，好钢用在刀刃上。
 
@@ -52,7 +52,9 @@
 
 [Lambda的动态光源](https://www.mcmod.cn/class/2954.html)
 
-[Smooth Boot](https://www.mcmod.cn/class/3422.html)平滑启动
+[Smooth Boot](https://www.mcmod.cn/class/3422.html)：平滑启动
+
+[Iris Shaders](https://www.mcmod.cn/class/3697.html)：光影优化
 
 ## Client Helpers-MASA全家桶 CLIENT Only
 [MaLiLib](https://www.mcmod.cn/class/2298.html)：前置Mod
@@ -88,7 +90,9 @@
 
 [连锁挖掘](https://www.mcmod.cn/class/3080.html)：我承认之前加的那个附魔书mod就是依托屎
 
-[Fabric Kotlin](https://www.mcmod.cn/class/2126.html)：作为lib库
+[Fabric for Kotlin](https://www.mcmod.cn/class/2126.html)：作为一键整理Next前置
+
+[LibIPN](https://www.mcmod.cn/class/7713.html)：作为一键整理Next前置
 
 [一键整理Next](https://www.mcmod.cn/class/4104.html)：客户端服务端都需装。
 
