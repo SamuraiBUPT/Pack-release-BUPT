@@ -21,17 +21,19 @@
 ## Server Optimization
 [磷Phopher](https://www.mcmod.cn/class/1766.html)：服务端优化：光照与世界生成
 
+[锂](https://www.mcmod.cn/class/2292.html)：优化生物系统、红石、爆炸等内容，区块加载优化等
+
 [氪Krypton](https://www.mcmod.cn/class/3399.html)：网络堆栈优化
 
 [Smooth Boot](https://www.mcmod.cn/class/3422.html)：平滑启动
-
-[Smooth Chunk Save](https://www.mcmod.cn/class/6170.html)：平滑区块保存
 
 ## Server Management SERVER Only
 
 
 ## Server Utils
 [JEI](https://www.mcmod.cn/class/459.html)：服务端安上功能齐全
+
+[JECA](https://www.mcmod.cn/class/3643.html)：服务端安装以解锁全功能
 
 [Fabric Kotlin](https://www.mcmod.cn/class/2126.html)：作为lib库
 
@@ -43,8 +45,6 @@
 [钠Sodium](https://www.mcmod.cn/class/2785.html)：引擎渲染，提高帧率 
 
 [钠·扩展Sodium Extra](https://www.mcmod.cn/class/3701.html)：作为钠的补充，完善了部分钠的不足，可以带来更好的视觉体验。
-
-[锂](https://www.mcmod.cn/class/2292.html)：优化生物系统、红石、爆炸等内容 （客户端/服务端二选一安装）
 
 [Exordium](https://www.mcmod.cn/class/7540.html)：改变渲染的硬件分配方式，好钢用在刀刃上。
 
@@ -68,12 +68,12 @@
 [Litematic](https://www.mcmod.cn/class/2261.html)
 
 [Item Scroller](https://www.mcmod.cn/class/1529.html)
-## Client Helpers-Just Enough系列 CLIENT Only
+## Client Helpers-Just Enough系列
 [JEI](https://www.mcmod.cn/class/459.html) 
 
 [JECH](https://www.mcmod.cn/class/840.html) 
 
-[JECA](https://www.mcmod.cn/class/3643.html) 
+[JECA](https://www.mcmod.cn/class/3643.html)：注意这个服务端也要安装！
 
 ## Client Helpers-utils CLIENT Only
 [Apple skin](https://www.mcmod.cn/class/744.html)：显示食物能提供的饱食度
@@ -94,7 +94,7 @@
 
 [LibIPN](https://www.mcmod.cn/class/7713.html)：作为一键整理Next前置
 
-[一键整理Next](https://www.mcmod.cn/class/4104.html)：客户端服务端都需装。
+[一键整理Next](https://www.mcmod.cn/class/4104.html)
 
 [更多箱子](https://www.mcmod.cn/class/20.html)：客户端服务端都需装
 
