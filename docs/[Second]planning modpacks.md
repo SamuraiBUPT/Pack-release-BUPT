@@ -19,13 +19,13 @@
 找一个world save  chank有关的优化mod
 # Mod List
 ## Server Optimization
-[磷Phopher](https://www.mcmod.cn/class/1766.html)：服务端优化：光照与世界生成
+[星光](https://www.mcmod.cn/class/3303.html)：服务端优化：光照与世界生成
 
 [锂](https://www.mcmod.cn/class/2292.html)：优化生物系统、红石、爆炸等内容，区块加载优化等
 
 [氪Krypton](https://www.mcmod.cn/class/3399.html)：网络堆栈优化
 
-[Smooth Boot](https://www.mcmod.cn/class/3422.html)：平滑启动
+[Smooth Boot](https://www.mcmod.cn/class/3422.html)：启动优化
 
 ## Server Management SERVER Only
 
@@ -42,6 +42,8 @@
 [更多箱子](https://www.mcmod.cn/class/20.html)：客户端服务端都需装
 
 ## Client Optimization
+[星光](https://www.mcmod.cn/class/3303.html)：服务端优化：光照与世界生成
+
 [钠Sodium](https://www.mcmod.cn/class/2785.html)：引擎渲染，提高帧率 
 
 [钠·扩展Sodium Extra](https://www.mcmod.cn/class/3701.html)：作为钠的补充，完善了部分钠的不足，可以带来更好的视觉体验。
