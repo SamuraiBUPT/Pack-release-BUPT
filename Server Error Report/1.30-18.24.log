@@ -1,0 +1,896 @@
+[18:23:27 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:27 ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[18:23:27 ERROR]: ------------------------------
+[18:23:27 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:27 ERROR]: ------------------------------
+[18:23:27 ERROR]: Current Thread:Server thread
+[18:23:27 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:27 ERROR]:       Stack:
+[18:23:27 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.unpark(Native Method)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.unpark(LockSupport.java:177)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack$SNode.tryMatch(SynchronousQueue.java:269)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:382)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue.offer(SynchronousQueue.java:909)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1349)
+[18:23:27 ERROR]:               net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213143_f(DelegatedTaskExecutor.java:119)
+[18:23:27 ERROR]:               net.minecraft.util.concurrent.DelegatedTaskExecutor.func_212871_a_(DelegatedTaskExecutor.java:113)
+[18:23:27 ERROR]:               net.minecraft.util.concurrent.ITaskExecutor.func_233528_c_(SourceFile:31)
+[18:23:27 ERROR]:               net.minecraft.world.chunk.storage.IOWorker.func_235975_a_(IOWorker.java:97)
+[18:23:27 ERROR]:               net.minecraft.world.chunk.storage.IOWorker.func_227093_a_(IOWorker.java:38)
+[18:23:27 ERROR]:               net.minecraft.world.chunk.storage.ChunkLoader.func_219100_a(SourceFile:65)
+[18:23:27 ERROR]:               net.minecraft.world.server.ChunkManager.func_219229_a(ChunkManager.java:716)
+[18:23:27 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:433)
+[18:23:27 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:27 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:27 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:27 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:27 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:27 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:27 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:27 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:27 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:27 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:27 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:27 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:27 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:27 ERROR]: ------------------------------
+[18:23:27 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:27 ERROR]: ------------------------------
+[18:23:32 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:32 ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[18:23:32 ERROR]: ------------------------------
+[18:23:32 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:32 ERROR]: ------------------------------
+[18:23:32 ERROR]: Current Thread:Server thread
+[18:23:32 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:32 ERROR]:       Stack:
+[18:23:32 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.shiftKeys(Long2ObjectLinkedOpenHashMap.java:375)
+[18:23:32 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.removeEntry(Long2ObjectLinkedOpenHashMap.java:278)
+[18:23:32 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:23:32 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:23:32 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:32 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:32 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:32 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:32 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:32 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:32 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:32 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:32 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:32 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:32 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:32 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:32 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:32 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:32 ERROR]: ------------------------------
+[18:23:32 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:32 ERROR]: ------------------------------
+[18:23:37 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:37 ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[18:23:37 ERROR]: ------------------------------
+[18:23:37 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:37 ERROR]: ------------------------------
+[18:23:37 ERROR]: Current Thread:Server thread
+[18:23:37 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:37 ERROR]:       Stack:
+[18:23:37 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.shiftKeys(Long2ObjectLinkedOpenHashMap.java:379)
+[18:23:37 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.removeEntry(Long2ObjectLinkedOpenHashMap.java:278)
+[18:23:37 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:23:37 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:23:37 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:37 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:37 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:37 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:37 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:37 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:37 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:37 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:37 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:37 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:37 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:37 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:37 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:37 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:37 ERROR]: ------------------------------
+[18:23:37 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:37 ERROR]: ------------------------------
+[18:23:39 INFO]: <SpotlessParty> ｗｔｆ？
+[18:23:42 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:42 ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[18:23:42 ERROR]: ------------------------------
+[18:23:42 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:42 ERROR]: ------------------------------
+[18:23:42 ERROR]: Current Thread:Server thread
+[18:23:42 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:42 ERROR]:       Stack:
+[18:23:42 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:23:42 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:23:42 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:42 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:42 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:42 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:42 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:42 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:42 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:42 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:42 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:42 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:42 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:42 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:42 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:42 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:42 ERROR]: ------------------------------
+[18:23:42 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:42 ERROR]: ------------------------------
+[18:23:47 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:47 ERROR]: The server has not responded for 30 seconds! Creating thread dump
+[18:23:47 ERROR]: ------------------------------
+[18:23:47 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:47 ERROR]: ------------------------------
+[18:23:47 ERROR]: Current Thread:Server thread
+[18:23:47 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:47 ERROR]:       Stack:
+[18:23:47 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:23:47 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:23:47 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:47 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:47 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:47 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:47 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:47 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:47 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:47 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:47 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:47 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:47 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:47 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:47 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:47 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:47 ERROR]: ------------------------------
+[18:23:47 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:47 ERROR]: ------------------------------
+[18:23:50 INFO]: <SpotlessParty> ？
+[18:23:52 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:52 ERROR]: The server has not responded for 35 seconds! Creating thread dump
+[18:23:52 ERROR]: ------------------------------
+[18:23:52 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:52 ERROR]: ------------------------------
+[18:23:52 ERROR]: Current Thread:Server thread
+[18:23:52 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:52 ERROR]:       Stack:
+[18:23:52 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:23:52 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:23:52 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:52 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:52 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:52 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:52 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:52 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:52 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:52 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:52 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:52 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:52 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:52 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:52 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:52 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:52 ERROR]: ------------------------------
+[18:23:52 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:52 ERROR]: ------------------------------
+[18:23:53 INFO]: <acomic_hawava> ?
+[18:23:57 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:23:57 ERROR]: The server has not responded for 40 seconds! Creating thread dump
+[18:23:57 ERROR]: ------------------------------
+[18:23:57 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:23:57 ERROR]: ------------------------------
+[18:23:57 ERROR]: Current Thread:Server thread
+[18:23:57 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:23:57 ERROR]:       Stack:
+[18:23:57 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:23:57 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:23:57 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:23:57 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:23:57 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:23:57 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:23:57 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:23:57 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:23:57 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:23:57 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:23:57 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:23:57 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:23:57 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:23:57 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:23:57 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:23:57 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:23:57 ERROR]: ------------------------------
+[18:23:57 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:23:57 ERROR]: ------------------------------
+[18:24:02 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:24:02 ERROR]: The server has not responded for 45 seconds! Creating thread dump
+[18:24:02 ERROR]: ------------------------------
+[18:24:02 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:24:02 ERROR]: ------------------------------
+[18:24:02 ERROR]: Current Thread:Server thread
+[18:24:02 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:02 ERROR]:       Stack:
+[18:24:02 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:24:02 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:24:02 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:24:02 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:24:02 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:24:02 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:24:02 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:24:02 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:24:02 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:24:02 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:24:02 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:24:02 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:24:02 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:24:02 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:24:02 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:24:02 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:02 ERROR]: ------------------------------
+[18:24:02 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:24:02 ERROR]: ------------------------------
+[18:24:04 INFO]: <acomic_hawava> 我箱子怎么炸了
+[18:24:07 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:24:07 ERROR]: The server has not responded for 50 seconds! Creating thread dump
+[18:24:07 ERROR]: ------------------------------
+[18:24:07 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:24:07 ERROR]: ------------------------------
+[18:24:07 ERROR]: Current Thread:Server thread
+[18:24:07 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:07 ERROR]:       Stack:
+[18:24:07 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:24:07 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:24:07 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:24:07 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:24:07 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:24:07 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:24:07 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:24:07 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:24:07 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:24:07 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:24:07 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:24:07 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:24:07 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:24:07 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:24:07 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:24:07 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:07 ERROR]: ------------------------------
+[18:24:07 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:24:07 ERROR]: ------------------------------
+[18:24:12 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:24:12 ERROR]: The server has not responded for 55 seconds! Creating thread dump
+[18:24:12 ERROR]: ------------------------------
+[18:24:12 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:24:12 ERROR]: ------------------------------
+[18:24:12 ERROR]: Current Thread:Server thread
+[18:24:12 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:12 ERROR]:       Stack:
+[18:24:12 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:24:12 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:24:12 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:24:12 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:24:12 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:24:12 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:24:12 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:24:12 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:24:12 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:24:12 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:24:12 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:24:12 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:24:12 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:24:12 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:24:12 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:24:12 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:12 ERROR]: ------------------------------
+[18:24:12 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:24:12 ERROR]: ------------------------------
+[18:24:17 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1096 (MC: 1.16.5) ---
+[18:24:17 ERROR]: The server has not responded for 60 seconds! Creating thread dump
+[18:24:17 ERROR]: ------------------------------
+[18:24:17 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:24:17 ERROR]: ------------------------------
+[18:24:17 ERROR]: Current Thread:Server thread
+[18:24:17 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:17 ERROR]:       Stack:
+[18:24:17 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:24:17 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:24:17 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:24:17 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:24:17 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:24:17 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:24:17 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:24:17 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:24:17 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:24:17 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:24:17 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:24:17 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:24:17 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:24:17 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:24:17 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:24:17 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:17 ERROR]: ------------------------------
+[18:24:17 ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:24:17 ERROR]: ------------------------------
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: The server has stopped responding! This is (probably) not a Mohist bug.
+[18:24:18 ERROR]: If you see a plugin in the Server thread dump below, then please report it to that author
+[18:24:18 ERROR]:        *Especially* if it looks like HTTP or MySQL operations are occurring
+[18:24:18 ERROR]: If you see a world save or edit, then it means you did far more than your server can handle at once
+[18:24:18 ERROR]:        If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+[18:24:18 ERROR]: If you are unsure or still think this is a Mohist bug, please report to https://mohistmc.com/
+[18:24:18 ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[18:24:18 ERROR]: Spigot version: 1.16.5-1096 (MC: 1.16.5)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Server thread
+[18:24:18 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:24:18 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:24:18 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:24:18 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Entire Thread Dump:
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Reference Handler
+[18:24:18 ERROR]:       PID: 2 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.Reference.processPendingReferences(Reference.java:243)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Finalizer
+[18:24:18 ERROR]:       PID: 3 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Object.wait(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Signal Dispatcher
+[18:24:18 ERROR]:       PID: 4 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Notification Thread
+[18:24:18 ERROR]:       PID: 10 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Common-Cleaner
+[18:24:18 ERROR]:       PID: 11 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Object.wait(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:ForkJoinPool.commonPool-worker-3
+[18:24:18 ERROR]:       PID: 19 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Thread-0
+[18:24:18 ERROR]:       PID: 20 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+[18:24:18 ERROR]:               app//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:FileSystemWatchService
+[18:24:18 ERROR]:       PID: 21 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Worker-Bootstrap-1
+[18:24:18 ERROR]:       PID: 23 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Timer hack thread
+[18:24:18 ERROR]:       PID: 24 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.sleep(Native Method)
+[18:24:18 ERROR]:               net.minecraft.util.Util$6.run(Util.java:506)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:modloading-worker-1
+[18:24:18 ERROR]:       PID: 25 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:FileSystemWatchService
+[18:24:18 ERROR]:       PID: 30 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Worker-Main-2
+[18:24:18 ERROR]:       PID: 31 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Snooper Timer
+[18:24:18 ERROR]:       PID: 33 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Object.wait(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Object.wait(Object.java:320)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.TimerThread.run(Timer.java:506)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Server thread
+[18:24:18 ERROR]:       PID: 32 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.remove(Long2ObjectLinkedOpenHashMap.java:785)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager.func_219185_a(ChunkManager.java:427)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager$$Lambda$9213/0x000000080226cb20.accept(Unknown Source)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager.func_223155_b(ChunkManager.java:415)
+[18:24:18 ERROR]:               net.minecraft.world.server.ChunkManager.func_219204_a(ChunkManager.java:393)
+[18:24:18 ERROR]:               net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:388)
+[18:24:18 ERROR]:               net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:496)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090)
+[18:24:18 ERROR]:               net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[18:24:18 ERROR]:               net.minecraft.server.MinecraftServer$$Lambda$6417/0x0000000801a82208.run(Unknown Source)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:DestroyJavaVM
+[18:24:18 ERROR]:       PID: 35 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Server console handler
+[18:24:18 ERROR]:       PID: 36 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.io.FileInputStream.read0(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.io.FileInputStream.read(FileInputStream.java:223)
+[18:24:18 ERROR]:               app//org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+[18:24:18 ERROR]:               app//org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[18:24:18 ERROR]:               app//org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+[18:24:18 ERROR]:               app//org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[18:24:18 ERROR]:               app//org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
+[18:24:18 ERROR]:               app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[18:24:18 ERROR]:               app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[18:24:18 ERROR]:               app//org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848)
+[18:24:18 ERROR]:               app//org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868)
+[18:24:18 ERROR]:               app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575)
+[18:24:18 ERROR]:               app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
+[18:24:18 ERROR]:               net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46)
+[18:24:18 ERROR]:               net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:100)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:ObjectCleanerThread
+[18:24:18 ERROR]:       PID: 37 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Object.wait(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[18:24:18 ERROR]:               app//io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[18:24:18 ERROR]:               app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Netty Epoll Server IO #0
+[18:24:18 ERROR]:       PID: 38 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[18:24:18 ERROR]:               app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Spigot Watchdog Thread
+[18:24:18 ERROR]:       PID: 43 | Suspended:false | Native:false | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.management@16.0.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[18:24:18 ERROR]:               java.management@16.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+[18:24:18 ERROR]:               java.management@16.0.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+[18:24:18 ERROR]:               org.spigotmc.WatchdogThread.run(WatchdogThread.java:120)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-0
+[18:24:18 ERROR]:       PID: 44 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-1
+[18:24:18 ERROR]:       PID: 45 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-3
+[18:24:18 ERROR]:       PID: 47 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-5
+[18:24:18 ERROR]:       PID: 49 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-7
+[18:24:18 ERROR]:       PID: 51 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-9
+[18:24:18 ERROR]:       PID: 53 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-11
+[18:24:18 ERROR]:       PID: 55 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3127)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+[18:24:18 ERROR]:               me.lucko.luckperms.common.storage.implementation.file.watcher.AbstractFileWatcher.runEventProcessingLoop(AbstractFileWatcher.java:128)
+[18:24:18 ERROR]:               me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher.lambda$new$0(FileWatcher.java:60)
+[18:24:18 ERROR]:               me.lucko.luckperms.common.storage.implementation.file.watcher.FileWatcher$$Lambda$7096/0x0000000801d762d8.run(Unknown Source)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-13
+[18:24:18 ERROR]:       PID: 57 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-15
+[18:24:18 ERROR]:       PID: 59 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-2
+[18:24:18 ERROR]:       PID: 46 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-10
+[18:24:18 ERROR]:       PID: 54 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-6
+[18:24:18 ERROR]:       PID: 50 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-12
+[18:24:18 ERROR]:       PID: 56 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-4
+[18:24:18 ERROR]:       PID: 48 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:293)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1624)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-14
+[18:24:18 ERROR]:       PID: 58 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-worker-8
+[18:24:18 ERROR]:       PID: 52 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:luckperms-scheduler
+[18:24:18 ERROR]:       PID: 60 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:FileSystemWatchService
+[18:24:18 ERROR]:       PID: 61 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:MVStore background writer /opt/mcsmanager/daemon/data/InstanceData/0ceada06487e44cea1c3960c2909088f/plugins/LuckPerms/luckperms-h2-v2.mv.db
+[18:24:18 ERROR]:       PID: 67 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Object.wait(Native Method)
+[18:24:18 ERROR]:               org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3768)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:H2-serialization
+[18:24:18 ERROR]:       PID: 69 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:H2-save
+[18:24:18 ERROR]:       PID: 70 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:FileSystemWatchService
+[18:24:18 ERROR]:       PID: 71 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:bStats-Metrics
+[18:24:18 ERROR]:       PID: 72 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:pool-8-thread-1
+[18:24:18 ERROR]:       PID: 73 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:bStats-Metrics
+[18:24:18 ERROR]:       PID: 74 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Metrics - 1
+[18:24:18 ERROR]:       PID: 79 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Craft Async Scheduler Management Thread
+[18:24:18 ERROR]:       PID: 84 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Minecolonies Pathfinding Worker #0
+[18:24:18 ERROR]:       PID: 90 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Netty Epoll Server IO #1
+[18:24:18 ERROR]:       PID: 97 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[18:24:18 ERROR]:               app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Netty Epoll Server IO #2
+[18:24:18 ERROR]:       PID: 98 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[18:24:18 ERROR]:               app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:ForkJoinPool-5-worker-3
+[18:24:18 ERROR]:       PID: 102 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1633)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:pool-7-thread-1
+[18:24:18 ERROR]:       PID: 104 | Suspended:false | Native:false | State:WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Netty Epoll Server IO #3
+[18:24:18 ERROR]:       PID: 133 | Suspended:false | Native:true | State:RUNNABLE
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+[18:24:18 ERROR]:               app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+[18:24:18 ERROR]:               app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:IO-Worker-212
+[18:24:18 ERROR]:       PID: 353 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:IO-Worker-213
+[18:24:18 ERROR]:       PID: 354 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:18 ERROR]: Current Thread:Async Chat Thread - 3
+[18:24:18 ERROR]:       PID: 358 | Suspended:false | Native:false | State:TIMED_WAITING
+[18:24:18 ERROR]:       Stack:
+[18:24:18 ERROR]:               java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+[18:24:18 ERROR]:               java.base@16.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[18:24:18 ERROR]:               java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+[18:24:18 ERROR]: ------------------------------
+[18:24:19 INFO]: Stopping server
+[18:24:19 INFO]: Saving players
