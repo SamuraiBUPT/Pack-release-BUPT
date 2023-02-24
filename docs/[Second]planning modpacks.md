@@ -41,6 +41,9 @@
 
 [更多箱子](https://www.mcmod.cn/class/20.html)：客户端服务端都需装
 
+[Terralith](https://www.mcmod.cn/class/4557.html)：Server Only，地形数据包
+
+[画作](https://www.mcmod.cn/class/6540.html)：文化瑰宝  国画
 ## Client Optimization
 [星光](https://www.mcmod.cn/class/3303.html)：服务端优化：光照与世界生成
 
@@ -100,4 +103,4 @@
 
 [更多箱子](https://www.mcmod.cn/class/20.html)：客户端服务端都需装
 
-
+[画作](https://www.mcmod.cn/class/6540.html)：文化瑰宝  国画
